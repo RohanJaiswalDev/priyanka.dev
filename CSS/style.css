@@ -2,22 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* GLOBAL */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-h2{
+h2 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-size: 28px;
 }
 
 /* HEADER */
-header{
-    background-color:#534f4f99;
+header {
+    background-color: #534f4f99;
     position: fixed;
     width: 100%;
     height: 100px;
@@ -26,31 +26,33 @@ header{
 }
 
 
-.logo a{
+.logo a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
     color: white;
 }
-.logo span{
+
+.logo span {
     color: red;
 }
 
-.nav-list{
+.nav-list {
     position: absolute;
     top: 40px;
     left: 67%;
 }
 
-#navbar .nav-list li{
+#navbar .nav-list li {
     margin-left: 25px;
 }
- #navbar .nav-list li{
- list-style: none;
- display: inline-block;
+
+#navbar .nav-list li {
+    list-style: none;
+    display: inline-block;
 }
 
-#navbar .nav-list li a{
+#navbar .nav-list li a {
     text-decoration: none;
     color: white;
     letter-spacing: 0.5px;
@@ -58,36 +60,36 @@ header{
 }
 
 /* SECTION-1 */
-#hero{
-background-image: url("/img/pic.png");
-height: 100vh;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-background-position:center center;
+#hero {
+    background-image: url("/img/pic.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
 }
 
- #hero .hero{
+#hero .hero {
     position: absolute;
     top: 240px;
     left: 200px;
-    
+
 }
 
-#hero .hero p{
+#hero .hero p {
     font-size: 35px;
 }
 
-#hero .hero h1{
+#hero .hero h1 {
     font-size: 55px;
     font-weight: 800;
 }
 
-#hero .hero span{
+#hero .hero span {
     font-size: 22px;
 }
 
-#hero .hero button{
+#hero .hero button {
     border-radius: 20px;
     padding: 20px;
     font-size: 20px;
@@ -98,23 +100,24 @@ background-position:center center;
     margin-top: 20px;
 }
 
-#hero .hero a{
+#hero .hero a {
     text-decoration: none;
     color: white;
 }
 
 /* ABOUT-ME */
 
-#about-me{
-padding: 100px 0px;
-position: relative;
+#about-me {
+    padding: 100px 0px;
+    position: relative;
 
 }
-#about-me h2{
-text-align: center;
+
+#about-me h2 {
+    text-align: center;
 }
 
-#about-me img{
+#about-me img {
     height: 350px;
     width: 450px;
     margin-top: 50px;
@@ -122,27 +125,27 @@ text-align: center;
     border-radius: 5px;
 }
 
-#about-me .about{
+#about-me .about {
     width: 670px;
     position: absolute;
     top: 210px;
     right: 150px;
 }
 
-#about-me .about h3{
+#about-me .about h3 {
     margin-bottom: 10px;
     font-size: 30px;
 }
 
-#about-me .about h3 span{
+#about-me .about h3 span {
     color: red;
 }
 
-#about-me .about p{
+#about-me .about p {
     margin-bottom: 20px;
 }
 
-#about-me .about button{
+#about-me .about button {
     border-radius: 20px;
     padding: 20px;
     font-size: 20px;
@@ -151,25 +154,26 @@ text-align: center;
     border: 1px solid crimson;
 }
 
-#about-me .about a{
+#about-me .about a {
     text-decoration: none;
     color: white;
 }
 
 /* SERVICE */
-#my-service{
-    background: linear-gradient(to right,skyblue,rgb(14, 41, 52));
+#my-service {
+    background: linear-gradient(to right, skyblue, rgb(14, 41, 52));
     height: 100vh;
 }
-#my-service{
+
+#my-service {
     padding: 100px 0px;
 }
-#my-service h2{
+
+#my-service h2 {
     text-align: center;
-    color: white;
 }
 
-#my-service .box{
+#my-service .box {
     text-align: center;
     width: 300px;
     padding: 20px;
@@ -178,38 +182,190 @@ text-align: center;
     border-radius: 10px;
 }
 
- #my-service .wrap{
-margin: 0px 190px;
-position: relative;
+#my-service .wrap {
+    margin: 0px 190px;
+    position: relative;
 }
 
-#my-service h3{
+#my-service h3 {
     margin-bottom: 20px;
     letter-spacing: 0.5px;
 }
 
-#my-service p{
+#my-service p {
     letter-spacing: 1px;
 }
-#my-service .box-1{
+
+#my-service .box-1 {
     position: absolute;
     top: 70px;
     left: 0px;
 }
 
-#my-service .box-2{
+#my-service .box-2 {
     position: absolute;
     top: 70px;
     left: 37%;
 }
 
-#my-service .box-3{
+#my-service .box-3 {
     position: absolute;
     top: 70px;
     left: 74%;
 }
-.bx{
+
+#my-service .bx {
     margin-bottom: 10px;
     color: crimson;
     font-size: 50px;
+}
+
+/* SKILL */
+
+#skill .wrap {
+    margin: 0px 190px;
+}
+
+#skill {
+    padding: 100px 0px;
+}
+
+#skill h2 {
+    text-align: center;
+    text-transform: suppercase;
+    margin-bottom: 20px;
+}
+
+.skill {
+    width: 55%;
+    padding: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.skill h3 {
+    margin-bottom: 15px;
+}
+
+#skill button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+#skill button {
+    padding: 10px;
+    width: 25%;
+    background-color: crimson;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+}
+
+/*CONTACT-ME  */
+
+#contact-me .wrap {
+    margin: 0px 190px;
+}
+
+#contact-me {
+    padding: 100px 0px;
+    position: relative;
+}
+
+#contact-me h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#contact-me .contact {
+    width: 46%;
+    letter-spacing: 1px;
+    margin-top: 60px;
+}
+
+#contact-me .contact-form {
+    width: 25%;
+    position: absolute;
+    top: 35%;
+    right: 22%;
+}
+
+#contact-me .bx {
+    font-size: 30px;
+    color: crimson;
+}
+
+#contact-me .contact p {
+    margin-bottom: 20px;
+}
+
+#contact-me .intro p {
+    margin-left: 35px;
+}
+
+#contact-me .contact h3 {
+    margin-bottom: 20px;
+}
+
+#contact-me .contact-form h3 {
+    margin-bottom: 15px;
+}
+
+#contact-me .contact-form .input-1 {
+    padding: 10px;
+    height: 52px;
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#contact-me .contact-form .input-2 {
+    padding: 10px;
+    height: 52px;
+    width: 48%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#contact-me .contact-form .input-3 {
+    padding: 10px;
+    height: 52px;
+    width: 120%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+#contact-me .contact-form textarea {
+    padding: 10px;
+    height: 100px;
+    width: 120%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#contact-me .contact-form button {
+    padding: 10px;
+    width: 40%;
+    background-color: crimson;
+    border-radius: 10px;
+    border: none;
+}
+
+#contact-me .contact-form button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* FOOTER */
+.footer {
+    color: white;
+    padding: 20px;
+    background-color: #333;
+    text-align: center;
+}
+
+.footer span {
+    color: crimson;
 }
