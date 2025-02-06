@@ -17,14 +17,13 @@ h2 {
 
 /* HEADER */
 header {
-    background-color: #534f4f99;
+    background-color: #1c242cde;
     position: fixed;
     width: 100%;
     height: 100px;
     padding: 20px;
     z-index: 5;
 }
-
 
 .logo a {
     text-decoration: none;
@@ -61,7 +60,7 @@ header {
 
 /* SECTION-1 */
 #hero {
-    background-image: url("/img/pic.png");
+    background-image: url("Hero-BG.png");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,7 +72,7 @@ header {
     position: absolute;
     top: 240px;
     left: 200px;
-
+    color: white;
 }
 
 #hero .hero p {
@@ -87,11 +86,13 @@ header {
 
 #hero .hero span {
     font-size: 22px;
+    color: #1bb0b5;
+    font-style: italic;
 }
 
 #hero .hero button {
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 5px;
+    padding: 10px 40px;
     font-size: 20px;
     background-color: red;
     color: white;
@@ -139,6 +140,10 @@ header {
 
 #about-me .about h3 span {
     color: red;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
 }
 
 #about-me .about p {
@@ -146,12 +151,13 @@ header {
 }
 
 #about-me .about button {
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 5px;
+    padding: 10px 30px;
     font-size: 20px;
     background-color: red;
     color: white;
     border: 1px solid crimson;
+    cursor: pointer;
 }
 
 #about-me .about a {
@@ -200,18 +206,25 @@ header {
     position: absolute;
     top: 70px;
     left: 0px;
+    cursor: pointer;
+}
+
+#my-service .box:hover {
+    box-shadow: 0px 5px 10px cornsilk;
 }
 
 #my-service .box-2 {
     position: absolute;
     top: 70px;
     left: 37%;
+    cursor: pointer;
 }
 
 #my-service .box-3 {
     position: absolute;
     top: 70px;
     left: 74%;
+    cursor: pointer;
 }
 
 #my-service .bx {
@@ -257,9 +270,10 @@ header {
     padding: 10px;
     width: 25%;
     background-color: crimson;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 20px;
     border: none;
+    cursor: pointer;
 }
 
 /*CONTACT-ME  */
@@ -300,8 +314,8 @@ header {
     margin-bottom: 20px;
 }
 
-#contact-me .intro p {
-    margin-left: 35px;
+#contact-me .m-top {
+    margin: -40px 0px 0px 50px;
 }
 
 #contact-me .contact h3 {
@@ -314,34 +328,39 @@ header {
 
 #contact-me .contact-form .input-1 {
     padding: 10px;
-    height: 52px;
     width: 50%;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: 0;
     margin-bottom: 10px;
 }
 
 #contact-me .contact-form .input-2 {
     padding: 10px;
-    height: 52px;
     width: 48%;
-    border-radius: 10px;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #ccc;
     margin-bottom: 10px;
 }
 
 #contact-me .contact-form .input-3 {
     padding: 10px;
-    height: 52px;
     width: 120%;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: 0;
     margin-bottom: 10px;
 }
 
 
 #contact-me .contact-form textarea {
     padding: 10px;
+    outline: 0;
     height: 100px;
+    border: 1px solid #ccc;
     width: 120%;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 10px;
 }
 
@@ -349,8 +368,9 @@ header {
     padding: 10px;
     width: 40%;
     background-color: crimson;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 #contact-me .contact-form button a {
